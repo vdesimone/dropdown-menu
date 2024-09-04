@@ -51,8 +51,12 @@ nav ul li a {
   width: 320px;
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.5s;
+  transition: max-height 0.4s;
 }
+.sub-menu-wrap.open-menu {
+  max-height: 400px;
+}
+
 .sub-menu {
   background: white;
   padding: 20px;
